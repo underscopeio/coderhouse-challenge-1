@@ -2,12 +2,10 @@
 
 Transformar en la nueva sintaxis cada uno de los siguientes _snippets_
 
-
 ```js
 var React = require('react')
 var Component = React.Component
 ```
-
 
 ```js
 // El valor de PI nunca debería cambiar
@@ -19,13 +17,11 @@ if (true) {
 }
 ```
 
-
 ```js
 function sumar(a, b) {
   return a + b
 }
 ```
-
 
 ```js
 function sumar(a, b) {
@@ -44,7 +40,6 @@ function procrear(nombre, edad) {
 }
 ```
 
-
 ```js
 var hijo = {
   nombre: 'Juan',
@@ -55,10 +50,9 @@ var hijo = {
   },
 }
 
-var nombreHijo = hijo.nombre
-var edadPadre = hijo.padre.edad
+var nombre = hijo.nombre
+var edad = hijo.padre.edad
 ```
-
 
 ```js
 var nombre = 'Juan'
